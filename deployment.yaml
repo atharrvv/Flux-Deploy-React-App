@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: react-application
-        image: python-app:0.0.0.2
+        image: react:0.0.1
         ports:
           - containerPort: 80
         imagePullPolicy: Always
