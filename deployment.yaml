@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: react-application
-        image: react
+        image: react:latest
         ports:
           - containerPort: 80
         imagePullPolicy: Always
